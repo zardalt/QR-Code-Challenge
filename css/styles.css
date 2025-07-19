@@ -6,7 +6,7 @@ body {
   justify-content: center;
   margin: 0;
 }
-p {
+h1, p {
   margin:0;
 }
 .container {
@@ -15,7 +15,7 @@ p {
   align-items: center;
   flex-direction: column;
   width: 320px;
-  border-radius: 6px;
+  border-radius: 15px;
 }
 .img-div {
   width: 90%;
@@ -35,19 +35,20 @@ p {
   margin-bottom: 40px;
   width: 84.375%;
 }
+.writeup h1,
 .writeup p {
   font-family: Outfit, Arial;
   width: 100%;
 }
 .bold-top {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
   margin-bottom: 16px;
 }
 .qr-prompt {
   color: hsl(216, 15%, 48%);
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
 }/*
 @media(max-width: 500px) {
